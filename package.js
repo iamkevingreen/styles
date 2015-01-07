@@ -1,7 +1,7 @@
 Package.describe({
 	name: 'orionjs:styles',
 	summary: 'Styles for orionjs admin',
-	version: '0.0.3',
+	version: '0.1.0',
 	git: 'https://github.com/orionjs/styles'
 });
 

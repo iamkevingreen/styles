@@ -1,39 +1,36 @@
-@background-color: lighten(@gray-lighter, 5%);
-
 .sidebar {
-	display: block;
-	height: 100%;
-	padding: 0 !important;
-	padding-top: 0px !important;
-	position: fixed !important;
-	top: @navbar-height;
-	height: 100%;
-	z-index: 100;
-	background-color: @background-color;
-	border-right: solid 1px @navbar-default-border;
-
 	ul {
-
 		li {
-			font-size: 15px;
-			margin-top: 0px !important;
+			margin-top: 10px;
+			margin-bottom: 20px;
+			text-shadow: 0px 0px 5px #555;
 
 			&.nav-divider {
 				margin-top: 0px !important;
 				margin-bottom: 0px !important;
 			}
 
-			a, a:hover {
-				color: @gray-dark;
-				border-left: solid 5px transparent;
-				border-bottom: solid 1px lighten(@navbar-default-border, 2%);
-				background-color: transparent;
+			a {
+				color: rgba(215, 215, 215, 0.8);
+				text-decoration: none;
+
+				.fa {
+					font-size: 20px;
+				}
+				.text {
+					margin-left: 4px;
+					font-size: 16px
+				}
+
+				&:hover {
+					text-decoration: none;
+					color: white;
+				}
 			}
 
 			&.active {
 				a {
-					border-left-color: @brand-primary;
-					background-color: darken(@background-color, 1%);
+					color: white;
 				}
 			}
 		}
