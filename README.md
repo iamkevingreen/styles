@@ -19,3 +19,9 @@ Here are all the styles for the orion admin.
 
 > Meteor will not read automatically any changes on the files exept for ```global.less```. 
 > If you have made any changes to another file, change the ```global.less``` and the styles will update.
+
+## Screenshots
+
+![alt tag](http://i.imgur.com/eFEQ5lT.jpg)
+![alt tag](http://i.imgur.com/eNMaaje.png)
+![alt tag](http://i.imgur.com/Rl3Mpvi.jpg)
